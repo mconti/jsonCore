@@ -1,0 +1,27 @@
+GET http://localhost:5000/api/Values HTTP/1.1
+
+###
+
+GET http://localhost:5000/api/Values HTTP/1.1
+
+###
+
+POST http://localhost:5000/api/Values HTTP/1.1
+content-type: application/json
+
+{
+    "Id": "1",
+    "Nome": "Maurizio",
+    "Cognome": "Conti"
+}
+###
+
+POST http://localhost:5000/api/Values HTTP/1.1
+content-type: application/json
+Accept: application/xml
+
+{
+    "Id": "1",
+    "Nome": "Maurizio",
+    "Cognome": "Conti"
+}
