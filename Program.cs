@@ -14,6 +14,7 @@ namespace PrimaCore
     {
         public static void Main(string[] args)
         {
+            // Commento di prova
             CreateWebHostBuilder(args).Build().Run();
         }
 
